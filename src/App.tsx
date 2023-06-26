@@ -1,12 +1,15 @@
-const App = () => {
+import { Header } from './components/Header';
+import { Orders } from './components/Orders';
+import { GlobalStyles } from './styles/GlobalStyles'
 
+const App = () => {
 	return (
-		<>
-			<div>
-				<h1>Hello World</h1>
-			</div>
-		</>
-	)
+        <>
+            <GlobalStyles />
+            <Header />
+            <Orders />
+        </>
+    );
 }
 
 export default App
